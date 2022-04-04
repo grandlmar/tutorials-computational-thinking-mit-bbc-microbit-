@@ -10,6 +10,11 @@ Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
 * klicke auf **Erweiterungen** unter dem Zahnrad-Menü
 * nach **https://github.com/grandlmar/tutorials-computational-thinking-mit-bbc-microbit-** suchen und importieren
 
+*Tutorial Stadt-Land-Fluss 
+**https://makecode.microbit.org/#tutorial:github:grandlmar/tutorials-computational-thinking-mit-bbc-microbit-/tutorial_stadtlandfluss**
+
+*Tutorial xy
+
 ## Dieses Projekt bearbeiten ![Build Status Abzeichen](https://github.com/grandlmar/tutorials-computational-thinking-mit-bbc-microbit-/workflows/MakeCode/badge.svg)
 
 Um dieses Repository in MakeCode zu bearbeiten.
