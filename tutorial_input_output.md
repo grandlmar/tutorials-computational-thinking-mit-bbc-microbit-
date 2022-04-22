@@ -1,4 +1,5 @@
 # Input-Output
+
 ## Aufgabenstellung
 
 Am LED-Display des BBC micro:bit soll 
@@ -40,11 +41,11 @@ input.onGesture(Gesture.Shake, function () {
 input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Happy)
 })
-input.onButtonPressed(Button.B, function () {
-    basic.showIcon(IconNames.Sad)
-})
 input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Heart)
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showIcon(IconNames.Sad)
 })
 basic.showString("Hi!")
 ```
