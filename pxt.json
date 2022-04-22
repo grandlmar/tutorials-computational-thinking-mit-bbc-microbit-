@@ -15,7 +15,8 @@
         "tutorial_input_output.md",
         "_locales/de/tutorial_input_output.md",
         "_locales/de/README.md",
-        "tutorial-info-cache.json"
+        "tutorial-info-cache.json",
+        "input_output.ts"
     ],
     "testFiles": [
         "test.ts"
