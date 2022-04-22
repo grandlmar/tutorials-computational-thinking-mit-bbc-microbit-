@@ -12,7 +12,8 @@
         "main.ts",
         "README.md",
         "tutorial_stadtlandfluss.md",
-        "tutorial_input_output.md"
+        "tutorial_input_output.md",
+        "_locales/de/tutorial_input_output.md"
     ],
     "testFiles": [
         "test.ts"
