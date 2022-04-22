@@ -1,17 +1,21 @@
 # Tutorial: Input-Output
 ## Schritt 1
 
-Am LED-Display des BBC micro:bit soll ein 
-lachender Smiley angezeigt werden 
-
-Erstelle ein ``||Array||`` mit dem Namen ``||Array: Alphabet||``, welches beim Start des Programmes mit allen Buchstaben des Alphabets gefüllt werden soll. „Schwierige" Buchstaben wie Q, X oder Y müssen nicht in die Liste aufgenommen werden.
+Am LED-Display des BBC micro:bit soll 
+- beim Start der Text "Hi!" augegeben werden
+- beim Drücken von Button A ein lachender Smiley angezeigt werden
+- beim Drucken von Button B ein trauriger Smiley angezeigt werden
+- ein großes Herz angezeigt werden, nachdem der BBC micro:bit geschüttelt wurde
 
 ```blocks
-let Alphabet = [
-"A",
-"B",
-"C",
-"D",
-"E"
-]
+input.onButtonPressed(Button.A, function () {
+    basic.showIcon(IconNames.Happy)
+})
+input.onGesture(Gesture.Shake, function () {
+    basic.showIcon(IconNames.Heart)
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showIcon(IconNames.Sad)
+})
+basic.showString("Hi!")
 ```
