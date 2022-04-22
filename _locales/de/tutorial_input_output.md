@@ -10,12 +10,15 @@ Am LED-Display des BBC micro:bit soll
 
 ## Schritt 1
 
-Ausgabe Text "Hi!"
+Am LED-Display des BBC micro:bit soll **beim Start** der Text "Hi!" augegeben werden
+Wähle dazu einen passenden Befehl aus der Kategorie **Grundlagen**.
 
 ```blocks
 basic.showString("Hi!")
 ```
 ## Schritt 2
+
+Wenn **Knopf A** gedrückt wird, dann soll am **LED-Display** ein **lachender Smiley** angezeigt werden.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -25,6 +28,8 @@ input.onButtonPressed(Button.A, function () {
 
 ## Schritt 3
 
+Wenn **Knopf B** gedrückt wird, dann soll am **LED-Display** ein **trauriger Smiley** angezeigt werden.
+
 ```blocks
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Sad)
@@ -32,12 +37,16 @@ input.onButtonPressed(Button.B, function () {
 
 ## Schritt 4
 
+Wenn der BBC micro:bit **geschüttelt** wird, dann soll am **LED-Display** ein **großes Herz** angezeigt werden.
+
 ```blocks
 input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.Heart)
 })
 ```
 ## Gesamter Programmcode:
+
+Sieh dir den gesamten Programmcode an:
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
