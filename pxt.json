@@ -16,7 +16,8 @@
         "_locales/de/tutorial_input_output.md",
         "_locales/de/README.md",
         "tutorial-info-cache.json",
-        "input_output.ts"
+        "input_output.ts",
+        "blinking_heart.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -28,5 +29,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
