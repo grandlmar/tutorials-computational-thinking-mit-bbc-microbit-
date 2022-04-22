@@ -10,6 +10,8 @@ Am LED-Display des BBC micro:bit soll
 
 ## Schritt 1
 
+Ausgabe Text "Hi!"
+
 ```blocks
 basic.showString("Hi!")
 ```
