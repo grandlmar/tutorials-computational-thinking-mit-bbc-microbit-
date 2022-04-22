@@ -8,6 +8,7 @@ Am LED-Display des BBC micro:bit soll
 - ein großes Herz angezeigt werden, nachdem der BBC micro:bit geschüttelt wurde
 
 ## Schritt 1
+
 ```blocks
 basic.showString("Hi!")
 ```
